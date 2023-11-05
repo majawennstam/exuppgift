@@ -4,70 +4,12 @@
     box-sizing: border-box;
 }
 
- .firstPage{
-    background: url('../images/bakground1.svg') no-repeat;
+/* body{
+    background: url('../images/bakgrund2.svg') no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    
-}
-.secondPage{
-        background: url('../images/bakgrund2.svg') no-repeat;
-        background-size: cover;
-        height: 100vh;
-        width: 100vw;
-    
-}
-
-.planets{
-
-     display:grid;
-    align-items: center;
-    justify-items: center;
-    width: 100vw;
-    
-
-}
-
-h2{
-    color: #FFF;
-text-align: right;
-font-family: Secular One;
-font-size: 60px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 5.4px;
-padding:0px;
-margin:0px;
-}
-h3{
-    color: #FFD029;
-text-align: right;
-font-family: Lora;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 14.4px;
-padding:0px;
-margin:0px;
-}
-.title{
-    position: absolute;
-    width: 28rem;
-    height: 100px;
-    right: 5rem;
-    top: 2rem;
-}
-
-.active{
-    display: block;
-} 
-.hidden{
-    display:none;
-}
-
-
-/* InfoPage */
+} */
 .planetInfo {
     display: grid;
     align-items: center;
@@ -140,3 +82,9 @@ table{
    width:500px;
     
 }
+
+
+
+
+
+
