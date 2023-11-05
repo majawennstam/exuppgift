@@ -1,69 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
- .firstPage{
+.firstPage {
     background: url('../images/bakground1.svg') no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    
-}
-.secondPage{
-        background: url('../images/bakgrund2.svg') no-repeat;
-        background-size: cover;
-        height: 100vh;
-        width: 100vw;
-    
+
 }
 
-.planets{
 
-     display:grid;
+.secondPage {
+    background: url('../images/bakgrund2.svg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#planets {
+
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 1.5fr 1.5fr 1fr 1fr;
     align-items: center;
     justify-items: center;
     width: 100vw;
-    
+
 
 }
 
-h2{
+h2 {
     color: #FFF;
-text-align: right;
-font-family: Secular One;
-font-size: 60px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 5.4px;
-padding:0px;
-margin:0px;
-}
-h3{
-    color: #FFD029;
-text-align: right;
-font-family: Lora;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 14.4px;
-padding:0px;
-margin:0px;
-}
-.title{
-    position: absolute;
-    width: 28rem;
-    height: 100px;
-    right: 5rem;
-    top: 2rem;
+    text-align: right;
+    font-family: Secular One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 5.4px;
+    padding: 0px;
+    margin: 0px;
 }
 
-.active{
+h3 {
+    color: #FFD029;
+    text-align: right;
+    font-family: Lora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 14.4px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title {
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    right: 80px;
+    top: 32px;
+}
+
+.active {
     display: block;
-} 
-.hidden{
-    display:none;
+}
+
+.hidden {
+    display: none;
 }
 
 
@@ -73,15 +79,16 @@ margin:0px;
     align-items: center;
     justify-items: center;
     position: absolute;
-   
+
     width: 640px;
     height: 682px;
     right: 5rem;
     top: 2rem;
-   padding: 50px;
+    padding: 50px;
 }
 
-h2{
+
+.infoPage>h2 {
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
@@ -91,52 +98,61 @@ h2{
     letter-spacing: 5.4px;
 }
 
-h3{
+.infoPage>h3 {
     color: #FFD029;
-font-family: Lora;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
+    font-family: Lora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
 
-letter-spacing: 14.4px;
+    letter-spacing: 14.4px;
 }
-tr{
+
+tr {
     padding-top: 10px;
+    text-align: center;
 }
-th{
+
+th {
     color: #FFF;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 1.62px; 
+    letter-spacing: 1.62px;
 }
-td{
+
+td {
     color: #FFF;
 
-    
+
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 170%;
     letter-spacing: 2.88px;
-    
-}
-p{
-    color: #FFF;
 
+}
+
+#info {
+    color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 170%; /* 30.6px */
-   
+    line-height: 170%;
+    /* 30.6px */
+
 }
 
-table{
+table {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     font-family: 'Roboto', sans-serif;
-   width:500px;
-    
+    width: 500px;
+
+}
+
+svg :hover{
+    cursor:pointer;
 }
