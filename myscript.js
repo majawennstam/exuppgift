@@ -9,20 +9,9 @@ const moons = document.getElementById("moons");
 const latinName = document.getElementById("latinName");
 const sol = document.getElementById("sol");
 const planets = document.getElementById("planets");
-
 const infoPage = document.getElementById("infoPage");
 const mainPage = document.getElementById("mainPage");
 const apiUrl = "https://majazocom.github.io/Data/solaris.json";
-// let whichPlanet = ['sol', 'merkuris', 'venus', 'jorden','mars','jupiter', 'saturnus', 'uranus', 'neptunus']
-
-// I main.js, använd fetch för att göra ett 
-// GET-request och hämta en specifik exempel-todo
-
-// const apiResponse = fetch(apiUrl)
-// .then((res) => res.json())
-// .then((data) => fillPlanetInfo(data[1]));
-
-
 
 function apiResponse(choosenPlanet) {
     const apiResponse = fetch(apiUrl)
